@@ -12,6 +12,9 @@ These are summaries based on the [react.gg](https://ui.dev/c/react) course on [u
 - [[Preserving values with useState]]
 - [[Using useState]]
 - [[Why react renders]]
+- [[Managing Effects]]
+- [[Preserving Values with useRef]]
+- [[Teleportation with Context]]
 
 ## Other Sources
 - [useMemo](https://react.dev/reference/react/useMemo)
