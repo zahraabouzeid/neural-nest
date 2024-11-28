@@ -1,5 +1,5 @@
 **T**est **D**riven **D**evelopment 
-## Die drei Gesetze der TDD
+## Die drei Gesetze der Tdd
 - Produktionscode erst schreiben, wenn Sie einen scheiternden Unit-Test geschrieben haben.
 - Der Unit-Test darf nicht mehr Code enthalten, als für das Scheitern und ein korrektes Kompilieren des Tests erforderlich ist.
 - Nur so viel Produktionscode schreiben, wie für das Beste hen des gegenwärtig scheiternden Tests ausreicht.
