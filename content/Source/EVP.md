@@ -8,3 +8,9 @@
 - [[Konfiguration eines Netzwerkbetriebssystems]]
 - [[DNS, DHCP und Routing]]
 - [[Datensicherung]]
+## Mittelstufe
+- [[RAID-Systeme]]
+- [[Backups]]
+- [[PC-Technik]]
+- [[DAS, NAS, SAN]]
+- [[Elektrotechnik]]
