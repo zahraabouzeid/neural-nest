@@ -7,4 +7,6 @@
 - [[Kapitel 7]]
 - [[Kapitel 8]]
 - [[Kapitel 9]]
+- [[Kapitel 10]]
+- [[Kapitel 11]]
 
