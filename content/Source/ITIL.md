@@ -45,3 +45,12 @@ Schulwebseite:
 - Fokus auf operative Prozesse: Request-, Incident-, Change- und Problem-Management
 - Ziel: „Keep it simple" – einfache und praktische Lösungen
 - Unterstützt mit Umsetzungshilfen, Leitfäden, Empfehlungen und Bewertungstools
+
+#### Generischen Rollen
+
+1. **SMS-Verantwortlicher (SMS Owner):** Zuständig für das Service-Management-System.
+2. **Fallverantwortlicher (Case Owner):** Verantwortlich für spezifische Fälle.
+3. **Service-Owner:** Übernimmt die Gesamtverantwortung für einen Service.
+4. **Prozessbeteiligter (Member of Process Staff):** Mitarbeiter in einem Prozessteam.
+5. **Prozessmanager (Process Manager):** Leitet und steuert Prozesse.
+6. **Prozess-Owner:** Verantwortlich für einzelne Serviceprozesse.
