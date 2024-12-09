@@ -1,4 +1,0 @@
-- Machine Code
-- Assembler
-- High Level Languages
-- Query Languages

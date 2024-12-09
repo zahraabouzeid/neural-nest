@@ -1,3 +1,0 @@
-## Unterstufe
-[Kommunikation](Kommunikation.md)
-

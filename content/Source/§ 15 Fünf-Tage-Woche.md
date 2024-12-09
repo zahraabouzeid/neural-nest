@@ -1,1 +1,0 @@
-Jugendliche dürfen nur an fünf Tagen in der Woche beschäftigt werden. Die beiden wöchentlichen Ruhetage sollen nach Möglichkeit aufeinander folgen.

@@ -1,1 +1,0 @@
-Soweit Vorschriften nicht bestehen, regelt die zuständige Stelle die Durchführung der Berufsausbildung im Rahmen dieses Gesetzes.

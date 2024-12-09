@@ -1,1 +1,0 @@
-Das Berufsausbildungsverhältnis beginnt mit der Probezeit. Sie muss mindestens einen Monat und darf höchstens vier Monate betragen.
