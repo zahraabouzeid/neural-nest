@@ -35,3 +35,5 @@
 
 ## Änderungen
 Ein sauberes System minimiert das Risiko von Fehlfunktionen, indem es Klassen so strukturiert, dass Änderungen den Rest des Systems nicht beeinträchtigen.
+
+## Open Closed Prinzip

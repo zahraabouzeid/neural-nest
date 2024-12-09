@@ -15,3 +15,11 @@
 - [[Beschaffung]]
 - [[Fertigungsplanung]]
 - [[Darlehensarten]]
+
+## Mittelstufe
+#### LF6
+- [[IT-Services]]
+- [[ITIL]]
+- [[RACI, EPK und BPMN]]
+- [[Vertragsarten und Rechte]]
+- [[Qualitätsmanagement von IT-Services]]
