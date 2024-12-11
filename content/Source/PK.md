@@ -5,3 +5,7 @@
 - [Bundesurlaubsgesetz](Bundesurlaubsgesetz.md)
 - [Jungendarbeitsschutzgesetz](Jungendarbeitsschutzgesetz.md)
 - [[Arbeitsvertrag]]
+
+## Mittelstufe
+- [[Betriebsrat]]
+- [[Jungend und Auszubildendenvertretung]]

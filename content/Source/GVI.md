@@ -21,6 +21,6 @@
 - [[IT-Services]]
 - [[ITIL]]
 - [[RACI, EPK und BPMN]]
+- [[Qualitätsmanagement von IT-Services]]
 ----
 - [[Vertragsarten und Rechte]]
-- [[Qualitätsmanagement von IT-Services]]
