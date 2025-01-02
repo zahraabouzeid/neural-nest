@@ -15,6 +15,7 @@ Welcome to **Neural Nest** by [Zahraa Bou Zeid](About%20Me.md)! Below is a break
 - [Programming](Programming.md)
 - [Work](Work.md)
 - [Obsidian](Obsidian.md)
+- [[Psychology]]
 
 ## About Me
 

@@ -1,0 +1,3 @@
+- **Creating a Work or Doing a Deed**: Achieving something significant or fulfilling a task.
+- **Experiencing Someone or Something**: Experiencing love, beauty, nature, or culture.
+- **Attitude Toward Unavoidable Suffering**: Finding meaning through how one responds to suffering or adversity.

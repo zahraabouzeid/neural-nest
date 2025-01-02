@@ -1,0 +1,1 @@
+A type of existential frustration or conflict stemming from the search for meaning, rather than biological or psychological causes.
