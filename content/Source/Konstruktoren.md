@@ -8,7 +8,7 @@ Ein **Konstruktor** ist eine spezielle Methode, die beim Erstellen eines Objekts
 
 ## Typen von Konstruktoren
 #### Default-Konstruktor
-Standard-Konstruktor ohne Parameter, optional, wenn andere Konstruktoren existieren:
+Standard-Konstruktor ohne Parameter, optional, wenn keine andere Konstruktoren existieren:
 
 ```java
 public class Mitarbeiter {
