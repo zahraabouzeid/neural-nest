@@ -1,24 +1,75 @@
 Polymorphie bedeutet, dass Objekte unterschiedliche Gestalten annehmen können und sich unterschiedlich verhalten, je nach dem, wie sie aufgerufen werden. In Java basiert Polymorphie stark auf **Vererbung**, **Abstraktion** und **dynamischem Binden (late binding)**.
 
-## Wichtigste Eigenschaften
-Eine Referenz vom Typ der Basisklasse kann auf Objekte einer abgeleiteten Klasse zeigen.
+## Polymorphe Objekte
+Ein polymorphes Objekt ist eine Sammlung von Elementen, bei der jedes Element auf eine Instanz einer abgeleiteten Klasse zeigt. Dabei kann jede Instanz eigene spezifische Methoden implementieren, die über gemeinsame Schnittstellen oder Basisklassen verwendet werden.
+
 ```java
-public static void main(String args [ ]){ 
-  Mitarbeiter arbeiter, chef;
-  arbeiter = new SchichtArbeiter();
-  chef = new Manager(); 
+public class Main { 
+	public static void main(String[] args) { 
+		Mitarbeiter[] team = new Mitarbeiter[2]; 
+		team[0] = new SchichtArbeiter("Joe", 15.5, 17); 
+		team[1] = new BueroArbeiter("Anita", 2000); 
+		for (Mitarbeiter mitarbeiter : team)
+			System.out.println(mitarbeiter.toString()); 
+		} 
+	} 
 }
 ```
-4. **Late Binding**: Der konkrete Methodenausdruck wird erst zur Laufzeit entschieden.
+#### Eigenschaften
+- Haben die Referenz einer übergeordneten Klasse
+- Können auf jede beliebige Instanz von abgeleiteten Klassen, die nicht abstrakt sind verweisen
+- Können nur das was die Klasse der Referenz kennt
+
+>[!info]
+>Ein Container ist eine Menge von unterschiedlich gestalteten Objekten: Array, Klasse oder auch Parameter
+## Prozedural vs. Objektorientiert
+
+#### Prozedural
+
+```java
+if (mitarbeiterTyp.equals("SchichtArbeiter")) {
+    System.out.println(((SchichtArbeiter) m).toString());
+} else if (mitarbeiterTyp.equals("BueroArbeiter")) {
+    System.out.println(((BueroArbeiter) m).toString());
+} else if (mitarbeiterTyp.equals("Manager")) {
+    System.out.println(((Manager) m).toString());
+}
+// Für jede neue Klasse: weitere Bedingung hinzufügen
+```
+
+**Nachteile:**
+- Jede neue Klasse erfordert Änderungen an allen Stellen mit `if-else`
+- Code ist schwer wartbar und anfällig für Fehler
+- Unübersichtlich bei vielen Mitarbeitertypen
+
+#### Objektorientiert
+```java
+for (Mitarbeiter m : anonym) {
+    System.out.println(m.toString());
+}
+// Automatisch wird die korrekte toString() Methode (durch Polymorphie) aufgerufen.
+```
+
+**Vorteile:**
+- Kein Bedarf, bestehende Logik zu ändern, wenn neue Klassen hinzugefügt werden
+- Einfacher und übersichtlicher Code
+- Wartungsfreundlich
+
+## Late Binding
+Bei **Late Binding** wird die zu verwendende Methode erst zur **Laufzeit** bestimmt, basierend auf der tatsächlichen Klasse des Objekts. Dies ist ein Kernelement der Polymorphie in objektorientierten Programmiersprachen wie Java.
+#### Vorteile von Late Binding
+- **Flexibilität:** Der konkrete Typ des Objekts muss nicht zur Kompilierzeit bekannt sein
+- **Erweiterbarkeit:** Neue Klassen können hinzugefügt werden, ohne den bestehenden Code zu ändern
+
+#### Nachteil
+**Performance:** Es kostet Laufzeit, da die Methode erst zur Laufzeit bestimmt wird
 ## Abstrakte Klassen
-Abstrakte Klassen dienen als Vorlage, die gemeinsame Eigenschaften und Methoden definiert, jedoch oft keine vollständige Implementierung enthält.
+Abstrakte Klassen dienen als Vorlage, die gemeinsame Eigenschaften und Methoden definiert, jedoch oft keine vollständige Implementierung enthält:
+- **Abstrakte Methoden**: Methoden ohne Implementierung, die in abgeleiteten Klassen definiert werden müssen
+- **Keine Instanziierung**: Von abstrakten Klassen können keine Objekte erstellt werden
+- **Sinnvolle Verwendung**: Wenn für die Methode der Basisklasse kein allgemeiner Inhalt sinnvoll ist, z. B. eine `einkommen()` Methode für alle Mitarbeiter
+- Eine Klasse mit mindestens einer abstrakten Methode ist eine abstrakte Klasse
 
-### Merkmale:
-- **Abstrakte Methoden**: Methoden ohne Implementierung, die in abgeleiteten Klassen definiert werden müssen.
-- **Keine Instanziierung**: Von abstrakten Klassen können keine Objekte erstellt werden.
-- **Sinnvolle Verwendung**: Wenn für die Methode der Basisklasse kein allgemeiner Inhalt sinnvoll ist, z. B. eine `einkommen()`-Methode für alle Mitarbeiter.
-
-### Beispiel:
 ```java
 public abstract class Mitarbeiter {
     private String name;
@@ -37,47 +88,7 @@ public class SchichtArbeiter extends Mitarbeiter {
 }
 ```
 
-## Redefinition (Overriding)
-- Eine Methode der Basisklasse wird in der abgeleiteten Klasse neu definiert.
-- Dynamisches Verhalten: Der Methodenaufruf richtet sich nach der tatsächlichen Objektinstanz.
-
-### Beispiel:
-```java
-public class Mitarbeiter {
-    public String toString() {
-        return "Mitarbeiter";
-    }
-}
-
-public class SchichtArbeiter extends Mitarbeiter {
-    @Override
-    public String toString() {
-        return "SchichtArbeiter";
-    }
-}
-```
-
----
-
-## Polymorphe Objekte
-Ein polymorphes Objekt kann unterschiedliche Typen annehmen, abhängig von seiner Klasse und ihrer Vererbung.
-
-### Eigenschaften:
-- **Basisklassen-Referenzen**: Ermöglichen es, mit Objekten unterschiedlicher Typen einheitlich zu arbeiten.
-- **Flexibilität**: Nur die Methoden der Basisklasse stehen zur Verfügung, außer bei Überschreibung.
-
-### Beispiel:
-```java
-Mitarbeiter[] team = new Mitarbeiter[2];
-team[0] = new SchichtArbeiter();
-team[1] = new Manager();
-
-for (Mitarbeiter m : team) {
-    System.out.println(m.toString());
-}
-```
-## Vorteile von Polymorphie und abstrakten Klassen
-1. **Wartungsfreundlichkeit**: Neue Klassen können ohne große Änderungen hinzugefügt werden.
-2. **Klarheit**: Vermeidung komplexer `if-else`-Strukturen.
-3. **Code-Wiederverwendbarkeit**: Gemeinsame Funktionalität wird in Basisklassen definiert.
-
+## Klassendiagramm
+![[Attachments/Pasted image 20250102212957.png|300]]
+- Klassenname kursiv oder mit `{abstract}`
+- Abstrakte Methoden kursiv dargestellt
