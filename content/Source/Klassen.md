@@ -1,10 +1,10 @@
 ## Warum Objektorientierung?
 Mit leistungsfähigeren Rechnern wurden Programme komplexer und unübersichtlicher, weshalb die Objektorientierung durch die Aufteilung in Klassen eingeführt wurde, um Daten zu schützen und Seiteneffekte zu vermeiden.
-#### Vorteile
+#### Nachteile
 - Höherer interner Verwaltungsaufwand
 - Geringere Ausführungsgeschwindigkeit im Vergleich zu strukturierten Programmen
 - Viele Treiber und Betriebssystemkerne werden weiterhin in ANSI C geschrieben
-#### Nachteile
+#### Vorteile
 - Kürzere Entwicklungszeiten
 - Bessere Wartbarkeit
 - Höhere Erweiterbarkeit
