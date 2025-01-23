@@ -1,2 +1,1 @@
-Frankl defines tragic optimism as the decision to say “yes” to life despite the pain, guilt, and death that one must necessarily face. These three negative forces are counteracted by the positive forces of hope, faith, and love.
- The ability to maintain hope and find meaning in life despite the presence of pain, guilt, and death.
+Frankl defines tragic optimism as the decision to say “yes” to life despite the pain, guilt, and death that one must necessarily face. These three negative forces are counteracted by the positive forces of hope, faith, and love. The ability to maintain hope and find meaning in life despite the presence of pain, guilt, and death.

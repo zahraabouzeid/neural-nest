@@ -15,8 +15,6 @@ Life has meaning under all circumstances, even in suffering or unavoidable hards
 - [[The Three Paths to Meaning]]
 - [[Noogenic Neurosis]]
 - [[Tragic Optimism]]
-
-
 ## Applications
 - Treating depression, [[anxiety]], and post-traumatic stress.
 - Counseling people with terminal illnesses.
