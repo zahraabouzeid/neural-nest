@@ -16,6 +16,7 @@ These are summaries based on the [react.gg](https://ui.dev/c/react) course on [u
 - [[Preserving Values with useRef]]
 - [[Teleportation with Context]]
 - [[useReducer for Complex State Management]]
+- [[useEffectEvent]]
 
 ## Other Sources
 - [useMemo](https://react.dev/reference/react/useMemo)
